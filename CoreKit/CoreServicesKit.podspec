@@ -22,8 +22,6 @@ Pod::Spec.new do |s|
   s.source       = { :path => 'https://github.com/AjayOdedara/CoreKitTest' }
 
   s.source_files  = “CoreKit”, "CoreKit/**/*.{h,m,swift}”
-
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
   echo "2.3" > .swift-version
 
 
