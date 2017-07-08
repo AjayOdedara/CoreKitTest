@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author       = "Dev Team"
   s.license      = "MIT"
   s.platform     = :ios, "10.0"
-  s.source       = { :path => 'https://github.com/AjayOdedara/CoreKitTest' }
+  s.source       = { :git => "https://github.com/AjayOdedara/CoreKitTest", :tag => "1.0.1" }
 
   s.source_files  = "CoreKit", "CoreKit/**/*.{h,m,swift}"
 
