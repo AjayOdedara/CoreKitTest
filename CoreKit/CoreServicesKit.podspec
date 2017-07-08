@@ -10,18 +10,19 @@ Pod::Spec.new do |s|
 
 
 
-  s.name         = "CoreKit"
-  s.version      = “1.0.0”
-  s.summary      = "CoreServicesKit Web Service Provider”
-  s.description  = “CoreServicesKit service that provide Apps to run Web Service and get data with desired models”
+  s.name         = "CoreKitTest"
+  s.version      = "1.0.0"
+  s.summary      = "CoreServicesKit Web Service Provider"
+  s.description  = "CoreServicesKit service that provide Apps to run Web Service and get data with desired models"
 
-  s.homepage     = "http://google.com”
-  s.author       = “Dev Team"
+  s.homepage     = "http://google.com"
+  s.author       = "Dev Team"
   s.license      = "MIT"
-  s.platform     = :ios, “10.0”
+  s.platform     = :ios, "10.0"
   s.source       = { :path => 'https://github.com/AjayOdedara/CoreKitTest' }
 
-  s.source_files  = “CoreKit”, "CoreKit/**/*.{h,m,swift}”
+  s.source_files  = "CoreKit", "CoreKit/**/*.{h,m,swift}"
+
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
 
