@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CoreKitTest"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "CoreServicesKit Web Service Provider"
   s.description  = "CoreServicesKit service that provide Apps to run Web Service and get data with desired models"
 
