@@ -1,0 +1,33 @@
+PODS:
+  - DateTools (1.7.0)
+  - p2.OAuth2 (3.0.0)
+  - SAMKeychain (1.5.2)
+  - SwiftDate (4.1.2)
+
+DEPENDENCIES:
+  - DateTools (~> 1.7.0)
+  - p2.OAuth2 (from `https://github.com/p2/OAuth2`, tag `3.0.0`)
+  - SAMKeychain
+  - SwiftDate (~> 4.0)
+
+EXTERNAL SOURCES:
+  p2.OAuth2:
+    :git: https://github.com/p2/OAuth2
+    :submodules: true
+    :tag: 3.0.0
+
+CHECKOUT OPTIONS:
+  p2.OAuth2:
+    :git: https://github.com/p2/OAuth2
+    :submodules: true
+    :tag: 3.0.0
+
+SPEC CHECKSUMS:
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  p2.OAuth2: a8f96ecad6a46189b9b193691fea401139e43491
+  SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
+  SwiftDate: 2dfdebd4f67ae71c9c3e2413ee3c56947f302858
+
+PODFILE CHECKSUM: a3c1ef8b9e23e4c9ee17b34d2a409bd07ed0bf37
+
+COCOAPODS: 1.2.1
